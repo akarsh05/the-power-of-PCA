@@ -2,7 +2,7 @@
 In this project, we are going to generate 1000 random input features, reduce their dimensionality using PCA, train 2 models using the original inputs and PCA-generated components, and create plots to compare the predictions.
 
 # Inference
-In this particular case, we can see that only 2 PCA components were sufficient to capture 95% of the variance in the input features.
+In this particular case, we can see that only 2 PCA components were sufficient to capture 95% of the variance in the 10 input features.
 Using the plots, we can see that the  predicitons using the PCA components are in-line with the predictions made by the original input features.
 
 # Process
