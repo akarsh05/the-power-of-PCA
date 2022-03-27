@@ -1,5 +1,5 @@
 # Overview
-In this project, we are going to generate some random input features, reduce their dimensionality using PCA, train 2 models using the original inputs and PCA-generated components, and create plots to compare the repdictions.
+In this project, we are going to generate 1000 random input features, reduce their dimensionality using PCA, train 2 models using the original inputs and PCA-generated components, and create plots to compare the predictions.
 
 # Inference
 In this particular case, we can see that only 2 PCA components were sufficient to capture 95% of the variance in the input features.
@@ -14,7 +14,7 @@ Using the plots, we can see that the  predicitons using the PCA components are i
    - column 3 = rodom_numner**3
    .
    .
-   -column 10 = random_number**10
+   - column 10 = random_number**10
 3. Generate a target variable y, which is the sum of all the columns.
 4. Split the data into train and validation data.
 5. Generate PCA componenets of the train data.
