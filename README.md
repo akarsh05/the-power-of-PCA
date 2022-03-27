@@ -15,7 +15,7 @@ Using the plots, we can see that the  predicitons using the PCA components are i
    .
    .
    - column 10 = random_number**10
-3. Generate a target variable y, which is the sum of all the columns.
+3. Generate a target variable y, which is the sum of all of the input features.
 4. Split the data into train and validation data.
 5. Generate PCA componenets of the train data.
 6. Model 1 - Train a Linear Regression model using the original input features.
