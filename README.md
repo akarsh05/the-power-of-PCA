@@ -1,10 +1,6 @@
 # Overview
 In this project, we generated 1000 random input numbers, created 9 additonal features based on the randomly generated numbers, reduced their dimensionality using PCA, trained 2 linear regression models, using the original inputs and PCA-generated components, and created plots to compare the predictions.
 
-# Inference
-In this particular case, we can see that only 2 PCA components were sufficient to capture 95% of the variance in the 10 input features.
-Using the plots, we can see that the  predicitons using the PCA components are in-line with the predictions made by the original input features.
-
 # Process
 
 1. Generate 1000 random numbers between 0 and 10.
@@ -23,4 +19,8 @@ Using the plots, we can see that the  predicitons using the PCA components are i
 8. Make predictions for validation data using Model 1 (original input features).
 9. Make predictions for validation data using Model 2 (PCA generated features).
 10. Plot the predicitons made by Model 1 and Model 2 against the validation target.
+
+# Inference
+In this particular case, we can see that only 2 PCA components were sufficient to capture 95% of the variance in the 10 input features.
+Using the plots, we can see that the  predicitons using the PCA components are in-line with the predictions made by the original input features.
 
