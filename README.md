@@ -1,5 +1,5 @@
 # Overview
-In this project, we are going to generate 1000 random input features, reduce their dimensionality using PCA, train 2 models using the original inputs and PCA-generated components, and create plots to compare the predictions.
+In this project, we generated 1000 random input numbers, created 9 additonal features based on the randomly generated numbers, reduced their dimensionality using PCA, trained 2 linear regression models, using the original inputs and PCA-generated components, and created plots to compare the predictions.
 
 # Inference
 In this particular case, we can see that only 2 PCA components were sufficient to capture 95% of the variance in the 10 input features.
